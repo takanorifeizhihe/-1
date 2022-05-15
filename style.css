@@ -68,31 +68,39 @@ footer {
 
 @media screen and (max-width:768px) {
 
+header {
+  width: 100%;
+}
+
 main {
   width: 100%;
   margin:50px auto;
-  display: inline-block;
+  display: block;
 }
 
 .step-box {
   width: 90%;
-  margin: 20px auto;
-}
-
-.step-img1 {
-  width: 90%;
-}
-
-.step-img2 {
-  width: 90%;
-}
-
-.step-img3 {
-  width: 90%;
+  margin:0 auto 20px;
 }
 
 .step-box:last-child {
-  margin: 20px auto;
-
+  margin: 20px auto 0;
 }
+
+.step-img1 {
+  height: 150px;
+}
+
+.step-img2 {
+  height: 150px;
+}
+
+.step-img3 {
+  height: 150px;
+}
+
+footer {
+  width: 100%;
+}
+
 }
